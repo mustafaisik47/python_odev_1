@@ -1,0 +1,6 @@
+sayi_1 = float(input("Birinci sayıyı giriniz : "))
+sayi_2 = float(input("İkinci sayıyı giriniz  : "))
+print(sayi_1,"+",sayi_2," = ",sayi_1+sayi_2)
+print(sayi_1,"-",sayi_2," = ",sayi_1-sayi_2)
+print(sayi_1,"*",sayi_2," = ",sayi_1*sayi_2)
+print(sayi_1,"/",sayi_2," = ",sayi_1/sayi_2)
