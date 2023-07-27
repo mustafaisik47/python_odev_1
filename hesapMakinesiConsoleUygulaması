@@ -1,6 +1,18 @@
-sayi_1 = float(input("Birinci sayıyı giriniz : "))
-sayi_2 = float(input("İkinci sayıyı giriniz  : "))
-print(sayi_1,"+",sayi_2," = ",sayi_1+sayi_2)
-print(sayi_1,"-",sayi_2," = ",sayi_1-sayi_2)
-print(sayi_1,"*",sayi_2," = ",sayi_1*sayi_2)
-print(sayi_1,"/",sayi_2," = ",sayi_1/sayi_2)
+sayi_1 = float(input("Birinci sayıyı giriniz   : "))
+islem = input("yapılacak işlemi giriniz :")
+sayi_2 = float(input("İkinci sayıyı giriniz    : "))
+
+if islem == "+":
+    print("Sonuç                    =",sayi_1+sayi_2)
+
+elif islem == "-":
+    print("Sonuç                    =",sayi_1-sayi_2)
+
+elif islem == "*":
+    print("Sonuç                    =",sayi_1*sayi_2)
+
+elif islem == "/":
+    print("Sonuç                    =",sayi_1/sayi_2)
+
+else:
+    print("Geçersiz işlem yaptınız. Program sonlandırıldı.")
